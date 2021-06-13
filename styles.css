@@ -1,0 +1,73 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    width: 40%;
+    height: 53%;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 12rem;
+    top: 12rem;
+
+}
+
+.info {
+    width: 60%;
+    padding: 3rem 4rem 5rem 4rem;
+}
+
+.insights {
+    color: hsl(277, 64%, 61%)
+}
+
+.companies {
+    width: 10%;
+    position: absolute;
+    left: 4rem;
+    bottom: 3rem;
+}
+
+.templates {
+    width: 10%;
+    position: absolute;
+    left: 12rem;
+    bottom: 3rem;
+}
+
+.queries {
+    width: 10%;
+    position: absolute;
+    left: 20rem;
+    bottom: 3rem;
+}
+
+.image {
+    position: absolute;
+    right: 10rem;
+    top: 12rem;
+    height: 53%;
+    width: 37%;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.image img {
+    border-radius: 0 0.5rem 0.5rem 0;
+    height: 100%;
+    width: 100%;
+}
+
+.tint-box {
+    position: absolute;
+    right: 10rem;
+    top: 12rem;
+    height: 53%;
+    width: 37%;
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 0 0.5rem 0.5rem 0;
+    opacity: 70%;
+}
